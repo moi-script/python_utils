@@ -130,6 +130,4 @@ def backFileBin(file_name: str):
     shutil.move(file_name, destination)
     print(f"Moved '{file_name}' -> '{destination}'")
 
-
-
 backFileBin('files/hello.txt')
